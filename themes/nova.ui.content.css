@@ -1,0 +1,233 @@
+﻿
+div, span, a
+{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.progress {
+    
+}
+.progress-bar {
+    background-color: #dddddd;
+    border: 1px solid #aaaaaa;
+    height: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.progress-covered {
+    height: 6px;
+    background-color: green;
+}
+.progress-value {
+    text-align: center;
+    padding-top: 10px;
+}
+ul.menu {
+    margin: 20px auto 20px auto;
+    padding: 0px;
+    width: 250px;
+}
+ul.menu .menu-button {
+    background-color: #ffebd0;
+    border: 1px solid #dbb985;
+    box-shadow: 5px 5px 5px #c29354;
+    -webkit-box-shadow: 5px 5px 5px #c29354;
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ae8548;
+    text-align: center;
+}
+ul.menu #linkHelp {
+    float: left;
+    width: 115px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+ul.menu #linkAbout {
+    float: right;
+    width: 115px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+ul.menu li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul.menu .menu-button.touching {
+    background-color: #ffc4a0;
+}
+ul.menu li small {
+    border-left: 1px solid #C29354;
+    color: #DDB23E;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+.challenge {
+    background: url(images/challenge.png) no-repeat;
+    width: 189px;
+    height: 30px;
+    margin: 35px auto 0 auto;
+}
+.level-w1 {
+    background: url(images/bg/level-bg.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #af8950;
+}
+.dialog-footer .btn {
+    background: url("images/bg/bar.png");
+}
+.dialog-footer .btn span {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #845A42;
+}
+.dialog-header {
+    background: url("images/bg/bar.png");
+
+}
+.dialog-title {
+    padding: 10px;
+    color: #FFF0E8;
+    font-weight: bold;
+}
+.dialog-close span {
+    background-position: -72px 2px;
+}
+.dialog-window {
+    box-shadow: 0 0 5px #FFC6A3;
+    -webkit-box-shadow: 0 0 5px #FFC6A3;
+}
+.dialog-footer-w1 {
+    border-top: 1px solid #D6BBAB;
+}
+.dialog-footer .btn {
+    min-width: 80px;
+}
+.level-data-list .right div.star {
+    width: 60px;
+    height: 18px;
+    
+}
+.dialog.maze-success dd.success-star span{
+    width: 60px;
+    height: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+#content {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+}
+ul#blogs {
+    margin: 0px;
+    padding: 0px;
+}
+ul#blogs>li {
+    list-style: none;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 6px 12px;
+    position: relative;
+    background-color: rgba(240, 240, 240, 0.75);
+}
+.blog-title {
+    font-weight: bold;
+}
+.blog-date {
+    position: absolute;
+    right: 0px;
+    color: #909090;
+    top: 0px;
+}
+.nav3 li span,
+.nav2 li span
+{
+    display: block;
+    border-right: 1px solid #f0f0f0;
+    border-left: 1px solid #a0a0a0;
+}
+.nav3 li:first-child span,
+.nav2 li:first-child span{
+    border-left: 0px;
+}
+.nav3 li:last-child span,
+.nav2 li:last-child span{
+    border-right: 0px;
+}
+.target {
+    position: relative;
+    height: 35px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+.target .progress {
+    position: absolute;
+    background-color: rgba(0, 200, 0, 0.8);
+    height: 100%;
+    top: 0px;
+}
+.target .progress-today {
+    position: absolute;
+    background-color: rgba(50,50,50,0.2);
+    height: 10px;
+    bottom: 0px;
+}
+.target .target-values {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    color: darkgreen;
+}
+.target-values .progress-percent {
+    
+}
+.target-values .progress-count {
+    font-size: 11px;
+}
+.content-w1 {
+    padding: 20px 15px;
+}
+ul#targets>li 
+{
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 6px;
+}
+ul#targets {
+    margin: 0px;
+    padding: 0px;
+}
+ul#targets li .target-title {
+    font-weight: bold;
+}
+#lblTobeAdded {
+    color: green;
+}
+.link.clicking {
+    background-color: #C4FF77;
+}
+#lblMargin{
+    color: green;
+    font-weight: bold;
+}
+#lblMargin small {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#lblMargin.warning {
+    color: red;
+}
